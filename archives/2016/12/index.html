@@ -49,8 +49,6 @@
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/tags/随笔/">随笔</a></li>
-	        
 			</ul>
 		</nav>
 		<nav class="header-smart-menu">
@@ -101,8 +99,6 @@
 				<ul>
 				
 					<li><a href="/">主页</a></li>
-		        
-					<li><a href="/tags/随笔/">随笔</a></li>
 		        
 		        
 		        	<li><a href="/archives/">所有文章</a></li>
@@ -168,6 +164,70 @@
   </div>
 </article>
   
+    
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2016/12/09/练习使用新主题/" class="archive-article-date">
+  	<time datetime="2016-12-09T06:37:20.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-09</time>
+</a>
+        </div>
+    	 
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2016/12/09/练习使用新主题/">口译练习笔记</a>
+    </h1>
+  
+
+        <div class="article-info info-on-right">
+          
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/口译/">口译</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/践行/">践行</a></li></ul>
+	</div>
+
+          
+
+        </div>
+        <div class="clearfix"></div>
+    </header>
+  </div>
+</article>
+  
+    
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2016/12/09/高效使用Google找到你要的结果/" class="archive-article-date">
+  	<time datetime="2016-12-09T02:20:50.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2016-12-09</time>
+</a>
+        </div>
+    	 
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2016/12/09/高效使用Google找到你要的结果/">高效使用Google找到你要的结果</a>
+    </h1>
+  
+
+        <div class="article-info info-on-right">
+          
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags"></i>
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Google/">Google</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/学习/">学习</a></li></ul>
+	</div>
+
+          
+
+        </div>
+        <div class="clearfix"></div>
+    </header>
+  </div>
+</article>
+  
   
     </div></section>
   
@@ -193,7 +253,7 @@
     </div>
     <script>
 	var yiliaConfig = {
-		mathjax: false,
+		mathjax: true,
 		isHome: false,
 		isPost: false,
 		isArchive: true,
@@ -206,6 +266,27 @@
 </script>
 
 <script src="/./main.js?v=4.0.0.js"></script>
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 
     
@@ -224,6 +305,30 @@
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">GitHub</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">学习</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">英语</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">Google</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">口译</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)">践行</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
